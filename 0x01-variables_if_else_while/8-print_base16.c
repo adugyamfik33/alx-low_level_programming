@@ -3,9 +3,9 @@
 int main(void)
 {
 
-    int x=102;
+    int x=102,i,j;
 
-        for(int i=0;i<10;i++)
+        for(i=0;i<10;i++)
 
         {
 
@@ -13,7 +13,7 @@ int main(void)
 
         }
 
-        for(int j =97;j<=102;j++)
+        for(j =97;j<=102;j++)
 
         {
 
