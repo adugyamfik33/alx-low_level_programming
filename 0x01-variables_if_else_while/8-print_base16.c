@@ -3,7 +3,7 @@
 int main(void)
 {
 
-    int x=102,i,j;
+    int i,j;
 
         for(i=0;i<10;i++)
 
