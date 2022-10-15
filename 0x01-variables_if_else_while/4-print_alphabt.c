@@ -3,7 +3,7 @@
 int main(void)
 {
 
-    int z =122,y=90,x;
+    int z =122,x;
 
         for(x = 97;x<=z;x++)
 
