@@ -1,9 +1,5 @@
 #include <stdio.h>
-void prnt(void)
-{
-	 printf("_putchar\n");
 
-}
 void print_alphabet(void)
 {
 	 int i =122,j;
