@@ -4,7 +4,7 @@ void prnt(void)
 	 printf("_putchar\n");
 
 }
-print_alphabet(void)
+void print_alphabet(void)
 {
 	 int i =122,j;
 
