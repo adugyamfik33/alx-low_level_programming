@@ -16,7 +16,7 @@ void jack_bauer(void)
 	        printf("%d",j);
 		if(j < 10)
 		{
-		_putchar(j+'0');
+		printf("%d",j);
 		}
 	_putchar('\n');
 		}
