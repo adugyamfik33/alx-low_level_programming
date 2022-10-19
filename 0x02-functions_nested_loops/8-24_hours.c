@@ -6,13 +6,13 @@ void jack_bauer(void)
 	{	
 		for(j = 0;j < 60;j++)
 		{
-			_putchar(i+'0');
+			printf("%d",i);
 			if(i < 10)
 			{
-			_putchar(i+'0');
+			printf("%d",i);
 			}
 		_putchar(':');
-	        _putchar(j+'0');
+	        printf("%d",j);
 		if(j < 10)
 		{
 		_putchar(j+'0');
