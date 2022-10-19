@@ -48,7 +48,7 @@ numb = i * j;
 if (j == 0)
 	_putchar('0');
 else
-	print_nums(_num);
+	print_nums(numb);
 if (j < n)
 	_putchar(',');
 else
