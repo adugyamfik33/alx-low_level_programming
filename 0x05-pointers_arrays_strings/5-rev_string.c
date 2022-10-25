@@ -3,10 +3,7 @@
 
 void rev_string(char *s)
 {
-	int x, y;
-
-	x =0;
-	y =0;
+	int x = 0, y = 0;
 	char stemp[1024];
 
 	while (*(s + x))
