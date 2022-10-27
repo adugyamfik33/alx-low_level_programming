@@ -2,17 +2,17 @@
 
 char *cap_string(char *string)
 {
-	int i = 0;
+	int n = 0;
 
-	while(string[i])
+	while(string[n])
 	{
-		while(!(string[i] >= 'a' && string[i] <= 'z'))
-			i++;
+		while(!(string[n] >= 'a' && string[n] <= 'z'))
+			n++;
 
 		if(string[n - 1] == ' ' || string[n - 1] == '\t' || string[n - 1] == '\n' || string[n - 1] == ',' || string[n - 1] == ';' || string[n - 1] == '.' || string[n - 1] == '?' || string[n - 1] == '!' || string[n - 1] == '"' || string[n - 1] == '}' || string[n - 1] == '{' || string[n - 1] == '!' || string[n - 1] == '(' || string[n - 1] == ')' || i == 0)
-			string[i] = 32;
+			string[n] = 32;
 
-		i++;
+		n++;
 	}
 
 	return (string);
