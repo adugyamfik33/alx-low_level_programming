@@ -1,17 +1,17 @@
 #include "main.h"
 
-char *string_toupper(char *)
+char *string_toupper(char *string)
 {
 	int i = 0;
 
-	while(str[i])
+	while(string[i])
 	{
-		if(str[i] >= 'a' && str[i] <= 'z')
+		if(string[i] >= 'a' && string[i] <= 'z')
 		{
-			str[i] -= 32;
+			string[i] -= 32;
 		}
 		i++;
 	}
 
-	return (str);
+	return (string);
 }
